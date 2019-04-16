@@ -1,6 +1,6 @@
 {
   "name": "ordered-grid",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "main": "/dist/ordered-grid.js",
   "description": "ordered grid",
   "scripts": {

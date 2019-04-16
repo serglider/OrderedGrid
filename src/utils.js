@@ -93,7 +93,7 @@ function getSnakeOrder(columns, rows) {
     const base = Array.from(Array(columns * rows), (_, i) => i);
     const matrix = chunk(base, columns);
     const bbf = matrix.map((arr, i) => i % 2 ? arr.reverse() : arr);
-    return bbf.reduce((result, arr) => [...result, ...arr], [])
+    return bbf.reduce((result, arr) => [...result, ...arr], []);
 }
 
 function getSpiralOrder(columns, rows) {
